@@ -1,0 +1,9 @@
+{
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "python.linting.pylintArgs": [
+    "--disable=C0114,C0115,C0116" // Disable docstring warnings for now
+  ]
+}
